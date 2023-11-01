@@ -99,7 +99,7 @@ jalaliDatepicker.updateOptions(options);
  
 method | description
 ----|---------
-`startWatch(options: object)`| به هر المانی که اتریبیوت data-jdp داشته باشد JalaliDatePicker را اضافه می کند. 
+`startWatch(options: object)`| به هر المانی که اتریبیوت data-jdp داشته باشد، JalaliDatePicker را اضافه می کند. 
 `show(input: document)`|به طور پیشفرض datepicker روی یک input نمایش داده می شود
 `hide`| مخفی شدن datepicker
 `updateOptions(options: object)`| آپدیت تنظیمات بعد از startWatch
