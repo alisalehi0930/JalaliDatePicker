@@ -84,7 +84,6 @@ jalaliDatepicker.startWatch();
 
 #### Info & Methods
 
-
 بعد از لود فایل js یک object به نام jalaliDatepicker به صورت global  که شامل 4 متد زیر است.ایجاد می‌شود
 
  <div dir="ltr">
@@ -97,13 +96,13 @@ jalaliDatepicker.updateOptions(options);
 ```
 
  </div>
-
+ 
 method | description
 ----|---------
-`startWatch(options)`| شروع کار و پردازش روی input ها 
-`show(input)`| نمایش روی یک input
-`hide`| مخفی شدن 
-`updateOptions`| آپدیت تنظیمات بعد از startWatch
+`startWatch(options: object)`| به هر المانی که اتریبیوت data-jdp داشته باشد JalaliDatePicker را اضافه می کند. 
+`show(input: document)`|به طور پیشفرض datepicker روی یک input نمایش داده می شود
+`hide`| مخفی شدن datepicker
+`updateOptions(options: object)`| آپدیت تنظیمات بعد از startWatch
 
 ### Options
 
@@ -174,13 +173,3 @@ data-jdp-only-time
 </div>
 
 </div>
-
-
-<section style="direction: rtl">
-
-1. `startWatch(options)` شروع کار و پردازش روی input ها
-2. `show(input)` نمایش روی یک input
-3. `hide` مخفی شدن
-4. `updateOptions` آپدیت تنظیمات بعد از startWatch
-
-</section>
