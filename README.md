@@ -97,10 +97,14 @@ jalaliDatepicker.updateOptions(options);
 
  </div>
  
-1. `startWatch(options)` شروع کار و پردازش روی input ها
-2. `show(input)` نمایش روی یک input
-3. `hide` مخفی شدن
-4. `updateOptions` آپدیت تنظیمات بعد از startWatch
+<div dir="rtl">
+
+1. ` startWatch(options)` شروع کار و پردازش روی input ها
+2. `show(input)` نمایش روی یک input <br/>
+3. `hide` مخفی شدن <br/>
+4. `updateOptions` آپدیت تنظیمات بعد از startWatch <br/>
+
+</div>
 
 ### Options
 
